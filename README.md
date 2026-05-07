@@ -9,11 +9,15 @@ HTML5 CSS3 JavaScript GSAP ScrollTrigger
 ProjectLink✈️ Travel Agency WebsiteView🏏 Cricket Store WebsiteView🧠 HTML Mastery Quiz AppView
 
 📁 Structure
+
 portfolio/
 
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── assets
     ├── p1.png
     ├── p2.png
