@@ -35,3 +35,7 @@ Scroll events throttled via requestAnimationFrame
 Email: fuzailraza@email.com ·
 
 © 2026 Fuzail Raza · Crafted with passion & code ✨
+<img width="2560" height="9852" alt="127 0 0 1_3000_index html(Nest Hub Max)" src="https://github.com/user-attachments/assets/0bec6e43-16d0-489d-85ed-5a6d280aba17" />
+<img width="2560" height="9852" alt="127 0 0 1_3000_index html(Nest Hub Max) (1)" src="https://github.com/user-attachments/assets/8b1ce199-6639-475e-845a-e9eed186c18d" />
+
+
