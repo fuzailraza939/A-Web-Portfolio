@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fuzail Raza — Developer</title>
+<link rel="icon" id="favicon" type="image/png" href=""/>
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body data-theme="dark">
+
+<div id="prog"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-name">
+    <span>F</span><span>u</span><span>z</span><span>a</span><span>i</span><span>l</span>
+  </div>
+  <div class="lbar-wrap"><div class="lbar" id="lbar"></div></div>
+</div>
+
+<canvas id="particles"></canvas>
+<div id="cur"></div>
+<div id="cur2"></div>
+
+<!-- MOBILE NAV -->
+<div class="mob-nav" id="mobNav">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#freelance">Freelance</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="logo">FR.</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="tbtn" id="themeBtn">🌙 Dark</button>
+    <a href="#contact" class="hirebtn">Hire Me</a>
+    <button class="ham" id="ham" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hbg"></div>
+  <div class="hero-grid"></div>
+  <div class="hwrap">
+    <div class="hleft">
+      <div class="h-badge"><span class="bdot"></span>Available for projects</div>
+      <h1 class="hname">
+        <span class="w">Fuzail</span><br>
+        <span class="w col">Raza.</span>
+      </h1>
+      <p class="hrole">Frontend Dev <span id="tw"></span></p>
+      <p class="hint">Aptech student passionate about building modern websites and learning new technologies. Crafting pixel-perfect, performant web experiences.</p>
+      <div class="hcta">
+        <a href="#projects" class="bta">See My Work →</a>
+        <a href="#contact" class="btb">Contact Me</a>
+      </div>
+    </div>
+    <div class="hvisual">
+      <div class="pouter">
+        <div class="pring3"></div>
+        <div class="pring2"></div>
+        <div class="pring1"></div>
+        <div class="pspin"></div>
+        <div class="pimg"><span class="pinitials">FR</span></div>
+      </div>
+      <div class="pf1">🌐 Web Developer</div>
+      <div class="pf2"><span class="sdot2"></span>Open to work</div>
+    </div>
+  </div>
+  <div class="sind">
+    <div class="smouse"><div class="swheel"></div></div>
+    <span class="slabel">Scroll</span>
+  </div>
+</section>
+
+<div class="divr"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sinr">
+    <div class="agrid">
+      <div class="al">
+        <div class="stag">About Me</div>
+        <h2 class="sh">Crafting the web,<br>one line at a time.</h2>
+        <div class="sline"></div>
+        <p class="atext">I am <strong>Fuzail Raza</strong>, an Aptech student learning web development. I have experience with <strong>HTML, CSS, JavaScript,</strong> and <strong>WordPress</strong>. I enjoy building modern responsive websites and continuously improving my coding skills. My goal is to become a professional web developer and work on international freelance platforms.</p>
+      </div>
+      <div class="astats ar">
+        <div class="astat"><div class="astatn" data-target="6">0</div><div class="astatl">Technologies</div></div>
+        <div class="astat"><div class="astatn" data-target="3">0</div><div class="astatl">Projects Done</div></div>
+        <div class="astat"><div class="astatn" data-target="3">0</div><div class="astatl">Months Intern</div></div>
+        <div class="astat"><div class="astatn" data-target="100">0</div><div class="astatl">% Committed</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divr"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sinr">
+    <div class="au">
+      <div class="stag">What I Know</div>
+      <h2 class="sh">Skills & Tools</h2>
+      <div class="sline"></div>
+    </div>
+    <div class="skwrap">
+      <div class="sk af" data-d="0"><div class="sktop"><span class="skn">HTML5</span><span class="skp">90%</span></div><div class="skbar"><div class="skfill" data-p="90"></div></div></div>
+      <div class="sk af" data-d=".08"><div class="sktop"><span class="skn">CSS3</span><span class="skp">85%</span></div><div class="skbar"><div class="skfill" data-p="85"></div></div></div>
+      <div class="sk af" data-d=".16"><div class="sktop"><span class="skn">JavaScript</span><span class="skp">70%</span></div><div class="skbar"><div class="skfill" data-p="70"></div></div></div>
+      <div class="sk af" data-d=".24"><div class="sktop"><span class="skn">WordPress</span><span class="skp">75%</span></div><div class="skbar"><div class="skfill" data-p="75"></div></div></div>
+      <div class="sk af" data-d=".32"><div class="sktop"><span class="skn">Basic React</span><span class="skp">50%</span></div><div class="skbar"><div class="skfill" data-p="50"></div></div></div>
+      <div class="sk af" data-d=".4"><div class="sktop"><span class="skn">Responsive Design</span><span class="skp">88%</span></div><div class="skbar"><div class="skfill" data-p="88"></div></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divr"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="sinr">
+    <div class="au">
+      <div class="stag">My Journey</div>
+      <h2 class="sh">Experience</h2>
+      <div class="sline"></div>
+    </div>
+    <div class="expcard az">
+      <div class="exptop">
+        <div>
+          <div class="exprole">Remote Frontend & WordPress Intern</div>
+          <div class="expco">Inside Developers</div>
+        </div>
+        <div class="expdate">Aug 2025 – Oct 2025</div>
+      </div>
+      <ul class="expli">
+        <li>Learned WordPress development — themes, plugins, and customisation from ground up</li>
+        <li>Worked with HTML, CSS, and JavaScript to build and style real web pages</li>
+        <li>Practised modern frontend techniques including flexbox, grid, and responsive layouts</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="divr"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sinr">
+    <div class="au">
+      <div class="stag">My Work</div>
+      <h2 class="sh">Projects</h2>
+      <div class="sline"></div>
+    </div>
+    <div class="pgrid">
+      <a class="pcard az" data-d="0" href="https://fuzailraza939.github.io/Travel-agency-static-website/" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit">
+        <div class="pthumb" style="background:url('assets/p1.png') center/cover no-repeat;">
+          <div class="poverlay"><span>View Project ↗</span></div>
+        </div>
+        <div class="pbody">
+          <div class="ptags"><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">Bootstrap</span></div>
+          <div class="ptitle">Travel Agency Website</div>
+          <p class="pdesc">A fully responsive travel agency site with destination cards, reservation system, and smooth UI.</p>
+        </div>
+      </a>
+      <a class="pcard az" data-d=".12" href="https://fuzailraza939.github.io/Cricket-Statics-Website/" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit">
+        <div class="pthumb" style="background:url('assets/p2.png') center/cover no-repeat;">
+          <div class="poverlay"><span>View Project ↗</span></div>
+        </div>
+        <div class="pbody">
+          <div class="ptags"><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JS</span></div>
+          <div class="ptitle">Cricket Store Website</div>
+          <p class="pdesc">Premium cricket gear ecommerce site with product listings, featured products, and feedback form.</p>
+        </div>
+      </a>
+      <a class="pcard az" data-d=".24" href="https://fuzailraza939.github.io/QuizApp-JS/" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit">
+        <div class="pthumb" style="position:relative;background:url('assets/p3.png') center/cover no-repeat;">
+          <div style="position:absolute;inset:0;background:rgba(7,7,14,0.45);z-index:0;"></div>
+          <div class="poverlay" style="z-index:1;"><span>View Project ↗</span></div>
+        </div>
+        <div class="pbody">
+          <div class="ptags"><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JavaScript</span></div>
+          <div class="ptitle">HTML Mastery Quiz App</div>
+          <p class="pdesc">Interactive quiz app with score tracking, multiple choice questions, and result screen with retake option.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divr"></div>
+
+<!-- FREELANCE -->
+<section id="freelance">
+  <div class="sinr">
+    <div class="flbox az">
+      <span class="flico">🚀</span>
+      <div class="stag" style="justify-content:center">Freelance Goals</div>
+      <h2 class="sh">Building for Clients Worldwide</h2>
+      <p>I'm preparing to work as a freelance web developer on <strong style="color:var(--text)">Fiverr</strong> and <strong style="color:var(--text)">Upwork</strong> — helping businesses build beautiful, functional websites from anywhere in the world.</p>
+      <div class="flbtns">
+        <a href="#" class="flbtn">💼 Fiverr Profile</a>
+        <a href="#" class="flbtn">🔗 Upwork Profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divr"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sinr">
+    <div class="au">
+      <div class="stag">Get In Touch</div>
+      <h2 class="sh">Let's Work Together</h2>
+      <div class="sline"></div>
+    </div>
+    <div class="ctgrid">
+      <a href="mailto:fuzailraza@email.com" class="ctcard au" data-d="0">
+        <span class="cticon">✉️</span>
+        <div class="ctname">Email</div>
+        <div class="ctval">fuzailraza@email.com</div>
+        <div class="ctsub">Drop me a message</div>
+      </a>
+      <a href="#" class="ctcard au" data-d=".1">
+        <span class="cticon">💼</span>
+        <div class="ctname">Fiverr</div>
+        <div class="ctval">@fuzailraza</div>
+        <div class="ctsub">Hire me on Fiverr</div>
+      </a>
+      <a href="#" class="ctcard au" data-d=".2">
+        <span class="cticon">🔗</span>
+        <div class="ctname">Upwork</div>
+        <div class="ctval">Fuzail Raza</div>
+        <div class="ctsub">Upwork profile</div>
+      </a>
+      <a href="#" class="ctcard au" data-d=".3">
+        <span class="cticon">👔</span>
+        <div class="ctname">LinkedIn</div>
+        <div class="ctval">fuzail-raza</div>
+        <div class="ctsub">Connect with me</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 <b>Fuzail Raza</b> · Crafted with passion &amp; code ✨</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
